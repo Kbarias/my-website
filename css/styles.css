@@ -4,6 +4,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -21,16 +22,27 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #6A8347;
+  color: #339933;
 }
 
 hr {
   border-style: dotted none none;
-  width: 5%;
+  width: 4%;
   border-color: #40514E;
   border-width: 5px;
+  margin: 100px auto;
 }
 
+a {
+  color: #339933;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: 	#F5F5F5;
+}
 /*top container components*/
 .top-container {
   margin: 0;
@@ -66,14 +78,10 @@ hr {
   width: 25%;
 }
 
-.skills {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
 .skill-row {
   width: 50%;
-  margin: 50px auto 50px auto;
+  margin: 100px auto 100px auto;
   line-height: 2;
   text-align: left;
 }
@@ -102,8 +110,19 @@ hr {
   margin-top: 100px;
 }
 
+.btn:hover {
+  color: #006600;
+}
+
 /*bottom container components*/
 
 .bottom-container {
+  background-color: #86C29C;
+  padding: 50px 0 20px;
+  margin-top: 30px;
+}
 
+.copy-right {
+  color: #F5F5F5;
+  font-size: 0.75rem;
 }
