@@ -1,0 +1,109 @@
+/*the body has text-align: center so all the divs are centered, but within the divs like 'skill-row
+the text is text-align:left*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: #86C29C;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #86C29C;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6A8347;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-color: #40514E;
+  border-width: 5px;
+}
+
+/*top container components*/
+.top-container {
+  margin: 0;
+  padding-top: 200px;
+  background-color: #f2f3f4;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute; /*taking out of html doc loading*/
+  right: 200px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+/*middle container components*/
+.middle-container {
+  margin-top: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.profile-img {
+  width: 25%;
+}
+
+.skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.code-img {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.front-end-img {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
+.swimming-img {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.contact-me {
+  margin-top: 100px;
+}
+
+/*bottom container components*/
+
+.bottom-container {
+
+}
